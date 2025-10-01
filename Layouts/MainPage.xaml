@@ -4,4 +4,21 @@
              x:Class="Layouts.MainPage"
              Title="Labo - Layouts">
 
+    <StackLayout Spacing="5">
+        <Label   Text="Titel" FontSize="Title" FontAttributes="Bold" BackgroundColor="LightGray" />
+        <Label HorizontalOptions="Start" MaximumWidthRequest="10" Text="1" FontSize="Large" BackgroundColor="LightSlateGrey"  />
+        <Label HorizontalOptions="End" MaximumWidthRequest="10" Text="2" FontSize="Large" BackgroundColor="LightSkyBlue"  />
+        <Label HorizontalOptions="Center" MaximumWidthRequest="12" Text="3" FontSize="Large" BackgroundColor="LightBlue" />
+        <Label HorizontalOptions="Start" WidthRequest="80" Text="4" FontSize="Large" BackgroundColor="LightSteelBlue" />
+        <Label HorizontalOptions="Center" HorizontalTextAlignment="Center" WidthRequest="80" Text="5" FontSize="Large" BackgroundColor="LightCyan" />
+        <Label HorizontalOptions="End" WidthRequest="80" HorizontalTextAlignment="End"  Text="6" FontSize="Large" BackgroundColor="LightSeaGreen" />
+        <Label HorizontalOptions="Center" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Padding="20" WidthRequest="60" Text="7" FontSize="Large" BackgroundColor="LightGreen" />
+        <Label HorizontalOptions="Start" WidthRequest="80" Text="8" HorizontalTextAlignment="End" FontSize="Large" BackgroundColor="LightGoldenrodYellow" />
+        <Label HorizontalOptions="End" WidthRequest="80" Text="9" FontSize="Large" BackgroundColor="LightYellow" />
+        <Label HorizontalOptions="End" HorizontalTextAlignment="Center" Padding="20" Margin="5" WidthRequest="80" Text="10" FontSize="Large" BackgroundColor="LightPink" />
+        <Label Padding="20" Margin="0,10,0,10" HorizontalTextAlignment="Center" Text="11" FontSize="Large" BackgroundColor="LightCoral" />
+        <Label Text="12" Padding="20" Margin="15" HorizontalTextAlignment="Center" FontSize="Large" BackgroundColor="LightSalmon" />
+        <Button Clicked="Button_Clicked" Text="Grid layout page" Margin="10"></Button>
+    </StackLayout>
+
 </ContentPage>
